@@ -4,6 +4,7 @@
 # cmake-format: on
 
 ConfigureTest(LP_UNIT_TEST
+    ${CMAKE_CURRENT_SOURCE_DIR}/unit_tests/postsolve_quality_test.cu
     ${CMAKE_CURRENT_SOURCE_DIR}/unit_tests/reported_objectives_test.cu
     ${CMAKE_CURRENT_SOURCE_DIR}/unit_tests/relative_residual_test.cu
     ${CMAKE_CURRENT_SOURCE_DIR}/unit_tests/presolve_objective_test.cu
